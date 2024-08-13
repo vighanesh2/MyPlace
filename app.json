@@ -1,18 +1,20 @@
 {
   "expo": {
-    "name": "project",
-    "slug": "project",
+    "name": "MyPlace",
+    "slug": "MyPlace-app",
+    "description": "This is an amazing social app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "assets/Myplace-4.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "assets/MyPlace-3.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vighanesh2.MyPlaceapp"
     },
     "android": {
       "adaptiveIcon": {
@@ -22,6 +24,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "49d53ac3-d3f1-40dd-8869-f778c01cb31e"
+      }
     }
   }
 }

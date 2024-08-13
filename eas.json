@@ -1,0 +1,18 @@
+{
+  "cli": {
+    "version": ">= 10.2.2"
+  },
+  
+    "build": {
+      "preview": {
+        "ios": {
+          "simulator": true
+        }
+      },
+      "production": {}
+    },
+  
+  "submit": {
+    "production": {}
+  }
+}
